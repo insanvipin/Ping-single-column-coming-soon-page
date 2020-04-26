@@ -12,29 +12,41 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    .attribution b { font-size: 14px; text-align: center; }
+    .attribution_b { text-align: center; margin-top: 0em;  display: inline-block;
+    font-size: 0.7em;
+    margin-bottom: 0em;
+    font-weight: bold;
+      }; 
+    margin-bottom: 10px; margin-block-start: 1px;
+    margin-block-end: 1em;}
     .attribution c { text-align: center;}
+
+    
     .first
     {
       
       text-align: center;
       position: relative;
       margin: 0;
+      height: 20%;
     }
     .second
     {
     
       position: relative;
-      margin-top: 3em;
+      margin-top: 1em;
       text-align: center;
+      height: 20%;
     }
     .third
     {
 
     
       position: relative;
-      margin-top: 3em;
+      margin-top: 2em;
+      margin-bottom: 2em;
       text-align: center;
+      height: 40%;
     }
     .vip
     {
@@ -54,19 +66,28 @@
      h1
       {
         
-        font-size: 1.7em;
+        font-size: 2.5em;
         font-weight: normal;
         color: #b2bec3;
+        margin-top: 1px;
+        margin-bottom: 0;
     
       }
+      h2
+      {
+        
+       font-size: 2em;
+       margin-top: 1em;
+       margin-bottom: 10px;
+         
+      }
+      
 
       
-      p {
-        display: block;
-         }
-    
-      .vip2 {
-  width: 25%;
+        .vip2 {
+
+  width: 55%;
+
 }
 
 .vip3 {
@@ -87,6 +108,7 @@
 
    footer {
      margin-top: 3em;
+     height: 15%;
    }
   .button {
       background-color: #4784fc;
@@ -111,26 +133,28 @@ input[type=email]{
 
   border-style: ridge;
   border-radius: 60px;
-  width: 250px;
+  width: 300px;
   font-size: 12px;
   margin: 4px 2px;
   padding: 10px 20px;
   text-align: left;  
-   
+  
 }
 input:invalid {
   background-color: none;
   border-color: red;
 }
-
+body{
+  margin: 0em;
+}
 
   </style>
 </head>
 <body>
  <div class="first">
-   <h3>PING<span class="vip1">.</span></h3>
+   <h2>PING<span class="vip1">.</span></h2>
    <h1>We are launching <span class="vip">soon!<span></h1>
-   <p class="attribution b">Subscribe and get notified</p>
+   <p class="attribution_b" style="margin-bottom: 0em; margin-top: 0em;">Subscribe and get notified</p>
   </div>
   <div class="second">
   <form action="">
@@ -141,10 +165,9 @@ input:invalid {
 </div>
   
   <div class="third">
-<img class="vip2" src="images\illustration-dashboard.png" alt="">
+<img class="vip2" src="images/illustration-dashboard.png" alt="">
 </div>
 </body>
-
   <footer>
     <p class="attribution c">
     <img class="vip3" src="images\fb.png" alt="">
